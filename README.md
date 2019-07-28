@@ -10,7 +10,7 @@ Clap switch for VM-CLAP1 sensor, LIFX bulbs and RaspberryPi.
 * LiFX bulb
 * RaspberryPi
 
-![My setup](https://i.imgur.com/spnHjBK.jpg =800x)
+![My setup](https://i.imgur.com/spnHjBK.jpg)
 
 ## Installation
 
