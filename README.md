@@ -33,7 +33,7 @@ The script reacts on your claps, turning a bulb ON and OFF.
 | `CLAP_SWITCH_SEQ_ALLOWANCE`    | 3.0 (seconds) | Length of the clapping sequence.                                                                                          |
 | `CLAP_SWITCH_RAPID`            | False         | If `True`, the script will wait for an acknowledge from the bulb after each command sent.                                 |
 | `CLAP_SWITCH_LOG_LEVEL`        | 'INFO'        | If `DEBUG`, the script will write a clap counter status after each clap.                                                  |
-| `CLAP_SWITCH_RETRY_COUNT`      | 3             | How many times should the script retry a command to the bulb if failed.                                                   |
+| `CLAP_SWITCH_RETRY_COUNT`      | 2             | How many times should the script retry a command to the bulb if failed.                                                   |
 
 ## Links
 
