@@ -1,6 +1,7 @@
-# clap-switch
+# clap-switch 👏💡
 
 Clap switch for VM-CLAP1 sensor, LIFX bulbs and RaspberryPi.
+
 The script reacts on your claps, turning a bulb ON and OFF.
 
 ![My setup](https://i.imgur.com/spnHjBK.jpg)
