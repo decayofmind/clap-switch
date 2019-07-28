@@ -20,4 +20,4 @@ install:
 	install -m0644 clap-switch.systemd $(DESTDIR)$(SYSCONFDIR)/systemd/system/clap-switch.service && $(SYSTEMCTL) daemon-reload
 
 installdeps:
-	if test -x "$(PIP)"; then $(PIP) -y install -r requirements.txt; fi
+	if test -x "$(PIP)"; then $(PIP) install -r requirements.txt; fi
