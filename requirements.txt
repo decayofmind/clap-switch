@@ -1,0 +1,4 @@
+gpiozero==1.5.0
+lifxlan==1.2.5
+RPi.GPIO==0.6.5
+tenacity==3.1.1
