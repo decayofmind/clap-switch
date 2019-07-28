@@ -37,7 +37,7 @@ Clap switch for VM-CLAP1 sensor, LIFX bulbs and RaspberryPi.
 
 | Name                           | Default       | Description                                                                                                               |
 |--------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------|
-| `CLAP_SWITCH_GPIO_BUTTON`      | 3             | GPIO pin the sensor is connected to.                                                                                      |
+| `CLAP_SWITCH_GPIO_BUTTON`      | 2             | GPIO pin the sensor is connected to.                                                                                      |
 | `CLAP_SWITCH_LIGHT_NAME`       | 'Main'        | Name of a LiFX bulb you want to switch ON and OFF.                                                                        |
 | `CLAP_SWITCH_LIGHT_BRIGHTNESS` | 65535 (100%)  | The bulb will be turned on with this brightness.                                                                          |
 | `CLAP_SWITCH_LIGHT_TEMP`       | 4000 (Kelvin) | Color temperature of the bulb.                                                                                            |
