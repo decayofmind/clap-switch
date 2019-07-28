@@ -1,6 +1,9 @@
 # clap-switch
 
 Clap switch for VM-CLAP1 sensor, LIFX bulbs and RaspberryPi.
+The script reacts on your claps, turning a bulb ON and OFF.
+
+![My setup](https://i.imgur.com/spnHjBK.jpg)
 
 ## Prerequisites
 
@@ -9,29 +12,13 @@ Clap switch for VM-CLAP1 sensor, LIFX bulbs and RaspberryPi.
   background noises.)_
 * LiFX bulb
 * RaspberryPi
-
-![My setup](https://i.imgur.com/spnHjBK.jpg)
+* Python3 (with pip) and make
 
 ## Installation
 
-### Easy way
-
-```shell
-   make
-   systemctl start clap-switch
-
-```
-
-### The hardest way
-
-1. Make sure you have Python3 installed.
-2. Install all requirements: `pip3 install -r requirements.txt`
-3. Copy `clap-switch.py` to `/usr/local/sbin/`
-4. Copy `clap-switch.systemd` to `/etc/systemd/system/clap-switch.service`
-5. Pay attention to settings in `clap-switch.py` and edit if needed.
-6. Reload systemd: `systemctl daemon-reload`
-7. Start it: `systemctl start clap-switch`
-8. Have FUN!
+1. Edit settings `clap-switch.systemd` file to meet your needs.
+2. `make`
+3. `systemctl start clap-switch`
 
 ## Settings
 
