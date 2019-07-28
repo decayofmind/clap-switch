@@ -8,14 +8,14 @@ Description=Clap Switch
 Type=idle
 
 # Script settings
-Environment=CLAP_SWITCH_GPIO_BUTTON=3
-Environment=CLAP_SWITCH_LIGHT_NAME='Main'
+#Environment=CLAP_SWITCH_GPIO_BUTTON=3
+#Environment=CLAP_SWITCH_LIGHT_NAME='Main'
 #Environment=CLAP_SWITCH_LIGHT_BRIGHT=65535
 #Environment=CLAP_SWITCH_LIGHT_TEMP=4000
-Environment=CLAP_SWITCH_CLAP_COUNT=3
-Environment=CLAP_SWITCH_SEQ_ALLOWANCE=5
-Environment=CLAP_SWITCH_RAPID=True
-Environment=CLAP_SWITCH_LOG_LEVEL=DEBUG
+#Environment=CLAP_SWITCH_CLAP_COUNT=2
+#Environment=CLAP_SWITCH_SEQ_ALLOWANCE=3
+#Environment=CLAP_SWITCH_RAPID=False
+#Environment=CLAP_SWITCH_LOG_LEVEL=INFO
 
 
 ExecStart=/usr/local/sbin/clap-switch.py
