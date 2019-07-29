@@ -9,8 +9,7 @@ The script reacts on your claps, turning a bulb ON and OFF.
 ## Prerequisites
 
 * [VM-CLAP1](https://www.pololu.com/product/2580/specs) clap sensor from Verbal Machines.
-  _(Any other simple GPIO button will work, but this one performs really well, ignoring all
-  background noises.)_
+  _(Works as a GPIO Button. Performs really well, ignoring all background noises.)_
 * LiFX bulb
 * RaspberryPi
 * Python3 (with pip) and make
