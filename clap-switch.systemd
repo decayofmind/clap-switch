@@ -3,6 +3,8 @@ Description=Clap Switch
 # Uncomment if systemd-networkd is used in your system
 #Requires=network-online.target systemd-networkd-wait-online.service
 #After=network-online.target systemd-networkd-wait-online.service
+Requires=network.target
+After=network.target
 
 [Service]
 Type=idle
